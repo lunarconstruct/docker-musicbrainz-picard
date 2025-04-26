@@ -8,7 +8,7 @@
 #
 
 app:
-  id: x
+  id: 30
   name: musicbrainz-picard
   friendly_name: MusicBrainz Picard
   gui_type: x11
