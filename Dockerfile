@@ -38,6 +38,11 @@ RUN \
         lsscsi \
         # Needed for dark mode support.
         adwaita-qt \
+        # A browser is needed.
+        firefox-esr \
+        # dbus is needed to allow multiple Firefox windows using the same
+        # profile.
+        dbus \
         # Need a font.
         font-croscore
 

@@ -1,0 +1,21 @@
+/* Hide tab bar. */
+#TabsToolbar { visibility: collapse !important; }
+
+/* Hide hamburger menu. */
+#PanelUI-menu-button { display: none !important; }
+
+/* Hide Extensions (puzzle piece) button. */
+#unified-extensions-button { display: none !important; }
+
+/* Hide the entire Navigation Toolbar (includes address bar, back/forward, etc.) */
+/*
+#nav-bar {
+  max-height: 1px !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+#urlbar {
+  visibility: collapse !important;
+}
+*/

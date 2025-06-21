@@ -1,0 +1,18 @@
+#!/bin/sh
+
+ARG="$1"
+
+if [ -z "$ARG" ]; then
+    exit 1
+fi
+
+case "$ARG" in
+    https://*|http://*)
+        # Open URLs in new window.
+        /usr/lib/firefox-esr/firefox-esr --new-window "$ARG"
+        ;;
+    *)
+        echo "don't know how to open: $ARG"
+        exit 1
+        ;;
+esac
