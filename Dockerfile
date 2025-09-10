@@ -101,3 +101,7 @@ LABEL \
     org.label-schema.version="${DOCKER_IMAGE_VERSION:-unknown}" \
     org.label-schema.vcs-url="https://github.com/jlesage/docker-musicbrainz-picard" \
     org.label-schema.schema-version="1.0"
+
+# UTF-8 Encoding for reading unicode filenames?    
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
